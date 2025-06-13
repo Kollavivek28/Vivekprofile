@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Kolla - Cloud Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="navbar">
+        <div class="nav-brand">
+            <div class="logo">VIVEK KOLLA</div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#profile"><i class="fas fa-id-card"></i> Profile</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-actions">
+            <button class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <a href="VivekFinaljob.pdf" class="resume-btn" download>
+                <i class="fas fa-download"></i>
+                <span>Resume</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="animate-text gradient-text">Hi, I'm Vivek Kolla</h1>
+                    <p class="subtitle animate-text">Cloud Developer & MERN Stack Engineer</p>
+                    <div class="hero-tags">
+                        <span class="tag animate-tag"><i class="fas fa-cloud"></i> Cloud Expert</span>
+                        <span class="tag animate-tag"><i class="fas fa-code"></i> Frontend Developer</span>
+                        <span class="tag animate-tag"><i class="fas fa-server"></i> Backend Specialist</span>
+                        <span class="tag animate-tag"><i class="fas fa-puzzle-piece"></i> Problem Solver</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="primary-btn animate-btn">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="secondary-btn animate-btn">
+                        <span>Contact Me</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <div class="shape shape-4"></div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-header">
+                    <i class="fas fa-user"></i>
+                    <h3>About Me</h3>
+                </div>
+                <p class="about-summary">Cloud Developer specializing in AWS and Azure services, with expertise in building scalable applications and implementing cloud solutions. Passionate about creating efficient, secure, and user-friendly applications.</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4><i class="fas fa-cloud"></i> Cloud</h4>
+                        <ul>
+                            <li>AWS (EC2, S3, Lambda)</li>
+                            <li>Azure Services</li>
+                            <li>Docker & Kubernetes</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4><i class="fas fa-code"></i> Development</h4>
+                        <ul>
+                            <li>Python, JavaScript, Java</li>
+                            <li>React.js & Node.js</li>
+                            <li>HTML5, CSS3, REST APIs</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4><i class="fas fa-tools"></i> Tools</h4>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>CI/CD Pipelines</li>
+                            <li>Agile Methodologies</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4><i class="fab fa-linux"></i> Operating Systems</h4>
+                        <ul>
+                            <li>Linux (Ubuntu, CentOS)</li>
+                            <li>Shell Scripting</li>
+                            <li>System Administration</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4><i class="fas fa-database"></i> Databases</h4>
+                        <ul>
+                            <li>MySQL & PostgreSQL</li>
+                            <li>MongoDB</li>
+                            <li>Database Design & Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="profile" class="profile">
+            <div class="section-content">
+                <div class="profile-header">
+                    <i class="fas fa-id-card"></i>
+                    <h2>Professional Profile</h2>
+                </div>
+                <div class="profile-grid">
+                    <div class="profile-image-container">
+                        <div class="profile-image">
+                            <img src="profile.jpg" alt="Vivek Kolla" class="profile-img">
+                        </div>
+                        <div class="profile-social">
+                            <a href="https://github.com/kollavivek28" target="_blank" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kolla-vivek-6b8750260/" target="_blank" class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/vivekkolla" target="_blank" class="social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <div class="profile-info">
+                            <h3>Vivek Kolla</h3>
+                            <p class="title">Cloud Developer & MERN Stack Engineer</p>
+                            <div class="info-list">
+                                <div class="info-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:kollavivek20@gmail.com">kollavivek20@gmail.com</a>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-phone"></i>
+                                    <a href="tel:+91 9390688539">+919390688539</a>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Kakinada Rural, India</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-summary">
+                            <h4>About Me</h4>
+                            <p>Passionate Cloud Developer with expertise in AWS services and full-stack development. Focused on building scalable, efficient solutions and continuously learning new technologies. Experienced in implementing cloud solutions and developing modern web applications.</p>
+                        </div>
+                        <div class="profile-achievements">
+                            <h4>Key Achievements</h4>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-certificate"></i>
+                                    <span>AWS Certified Solutions Architect Associate</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-code"></i>
+                                    <span>Developed 5+ successful cloud-based applications</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-users"></i>
+                                    <span>Led development team in multiple projects</span>
+                                </li>
+                                <li>
+                                    <i class="fab fa-linux"></i>
+                                    <span>Implemented automated deployment pipelines using Linux</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-database"></i>
+                                    <span>Optimized database performance for high-traffic applications</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications">
+            <div class="section-content">
+                <div class="certifications-header">
+                    <i class="fas fa-certificate"></i>
+                    <h2>Certifications</h2>
+                </div>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>Azure Fundamentals</h3>
+                            <p>Microsoft</p>
+                            <div class="certificate-image">
+                                <img src="certificates/azure.jpg" alt="Azure Fundamentals Certificate" onclick="openCertificateModal(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fab fa-salesforce"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>Salesforce AI Associate</h3>
+                            <p>Salesforce</p>
+                            <div class="certificate-image">
+                                <img src="certificates/salesforce.jpg" alt="Salesforce AI Associate Certificate" onclick="openCertificateModal(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>Java IT Specialist</h3>
+                            <p>Oracle</p>
+                            <div class="certificate-image">
+                                <img src="certificates/java.png" alt="Java IT Specialist Certificate" onclick="openCertificateModal(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>SQL</h3>
+                            <p>HackerRank</p>
+                            <div class="certificate-image">
+                                <img src="certificates/sql.png" alt="SQL HackerRank Certificate" onclick="openCertificateModal(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>Python</h3>
+                            <p>HackerRank</p>
+                            <div class="certificate-image">
+                                <img src="certificates/python.png" alt="Python HackerRank Certificate" onclick="openCertificateModal(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>Cisco Networking</h3>
+                            <p>Cisco</p>
+                            <div class="certificate-image">
+                                <img src="certificates/cisco.png" alt="Cisco Networking Certificate" onclick="openCertificateModal(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>NDG Linux Unhatched</h3>
+                            <p>Cisco</p>
+                            <div class="certificate-image">
+                                <img src="certificates/Ndg.png" alt="NDG Linux Unhatched Certificate" onclick="openCertificateModal(this.src)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificate Modal -->
+        <div id="certificateModal" class="modal">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+
+        <section id="projects" class="projects">
+            <div class="section-content">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/task.webp" alt="Task Manager App">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-tasks"></i>
+                                <h3>Task Manager App</h3>
+                            </div>
+                            <p>A full-stack task management application with real-time updates and user authentication.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-react"></i> React</span>
+                                <span><i class="fab fa-node-js"></i> Node.js</span>
+                                <span><i class="fas fa-database"></i> MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/profile.png" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Portfolio Website</h3>
+                            </div>
+                            <p>A modern, responsive portfolio website showcasing my projects and skills.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-html5"></i> HTML5</span>
+                                <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                                <span><i class="fab fa-js"></i> JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/medicalchat" alt="Medical Chatbot">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-robot"></i>
+                                <h3>Medical Chatbot</h3>
+                            </div>
+                            <p>An intelligent medical chatbot that provides preliminary health assessments and medical information using natural language processing.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-java"></i> Java</span>
+                                <span><i class="fas fa-brain"></i> Machine Learning</span>
+                                <span><i class="fab fa-html5"></i> HTML/CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/sentiment-analysis.jpg" alt="Sentiment Analysis">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-brain"></i>
+                                <h3>Sentiment Analysis</h3>
+                            </div>
+                            <p>An AI-powered sentiment analysis tool for analyzing text data and social media content.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-python"></i> Python</span>
+                                <span><i class="fas fa-brain"></i> NLP</span>
+                                <span><i class="fab fa-aws"></i> AWS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/climate.png" alt="Climate AI Assistant">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-leaf"></i>
+                                <h3>Climate AI Assistant</h3>
+                            </div>
+                            <p>An AI-powered educational assistant focused on climate change awareness and environmental education.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-python"></i> Python</span>
+                                <span><i class="fas fa-robot"></i> AI/ML</span>
+                                <span><i class="fas fa-graduation-cap"></i> Education</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Buddy.png" alt="Buddy App">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-users"></i>
+                                <h3>Buddy App</h3>
+                            </div>
+                            <p>A Java-based social networking application for connecting people with similar interests and activities.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-java"></i> Java</span>
+                                <span><i class="fas fa-database"></i> MySQL</span>
+                                <span><i class="fas fa-server"></i> Spring Boot</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/tic tac.png" alt="Tic Tac Toe Game">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <i class="fas fa-gamepad"></i>
+                                <h3>Tic Tac Toe Game</h3>
+                            </div>
+                            <p>A classic Tic Tac Toe game built with pure HTML, CSS, and JavaScript featuring a responsive design and interactive UI.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-html5"></i> HTML5</span>
+                                <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                                <span><i class="fab fa-js"></i> JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-content">
+                <div class="contact-header">
+                    <i class="fas fa-envelope"></i>
+                    <h2>Get In Touch</h2>
+                    <p>Let's discuss how we can work together</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>kollavivek20@gmail.com</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p>+919390688539</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Location</h3>
+                            <p>Kakinada Rural, India</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i>
+                                Name
+                            </label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i>
+                                Email
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                <i class="fas fa-tag"></i>
+                                Subject
+                            </label>
+                            <input type="text" id="subject" name="subject" placeholder="Message subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i>
+                                Message
+                            </label>
+                            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Vivek Kolla. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Scroll Reveal Animation
+        window.addEventListener('scroll', reveal);
+        
+        function reveal() {
+            const reveals = document.querySelectorAll('.reveal');
+            
+            reveals.forEach(element => {
+                const windowHeight = window.innerHeight;
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    element.classList.add('active');
+                }
+            });
+        }
+
+        // Theme Toggle
+        const themeToggle = document.querySelector('.theme-toggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            const icon = themeToggle.querySelector('i');
+            icon.classList.toggle('fa-moon');
+            icon.classList.toggle('fa-sun');
+        });
+    </script>
+</body>
+</html> 
